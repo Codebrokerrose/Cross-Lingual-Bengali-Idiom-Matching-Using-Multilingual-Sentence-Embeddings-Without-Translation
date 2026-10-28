@@ -20,6 +20,12 @@ The study systematically compares **four pretrained models** representing distin
 - **BanglaBERT** — a monolingual BERT model pre-trained exclusively on Bengali text
 - **XLM-RoBERTa-base** — a general-purpose multilingual encoder trained on 100 languages
 
+<p align="center">
+  <img src="banglasemantics.png" alt="Comparison of a traditional translation-based pipeline with the proposed translation-free embedding pipeline for Bengali, English and Hindi idioms" width="850">
+</p>
+
+<p align="center"><em>Figure: Traditional translation-based matching (left) vs. our translation-free approach (right), where Bengali, English and Hindi idioms are embedded directly into a shared 768-dimensional space and compared via cosine similarity.</em></p>
+
 ---
 
 ## 🎯 Research Objectives
